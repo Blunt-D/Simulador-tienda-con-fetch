@@ -41,6 +41,8 @@ function pushearPolera() {
 
 function vaciarStorage() {
     localStorage.clear()
+    carrito.splice(0,Infinity)
+    productos.splice(0,Infinity)
 }
 
 function checarCarrito() {
